@@ -1,12 +1,12 @@
 import Layout from "../components/templates/Layout";
 import { VFC } from "react";
 
-const Home: VFC = () => {
+const Sample: VFC = () => {
   return (
-    <Layout title="home">
-      <h1>Hello Next</h1>
+    <Layout title="sample">
+      <h1>SAMPLE</h1>
     </Layout>
   );
 };
 
-export default Home;
+export default Sample;
