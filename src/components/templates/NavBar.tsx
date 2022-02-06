@@ -30,6 +30,9 @@ const NavBar = () => {
         <Link href={pagesPath.sample.$url()}>
           <a data-testid="sample">Sample</a>
         </Link>
+        <Link href={pagesPath.timer.$url()}>
+          <a data-testid="timer">Timer</a>
+        </Link>
       </Box>
     </header>
   );
