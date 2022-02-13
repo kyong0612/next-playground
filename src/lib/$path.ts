@@ -1,6 +1,11 @@
 /* eslint-disable */
 // prettier-ignore
 export const pagesPath = {
+  private: {
+    profile: {
+      $url: (url?: { hash?: string }) => ({ pathname: '/private/profile' as const, hash: url?.hash })
+    }
+  },
   sample: {
     $url: (url?: { hash?: string }) => ({ pathname: '/sample' as const, hash: url?.hash })
   },

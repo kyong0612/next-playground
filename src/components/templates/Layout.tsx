@@ -6,6 +6,7 @@ type Props = {
   children: ReactNode;
   title: string;
 };
+
 const Layout: VFC<Props> = ({ children, title = "Welcome to Nextjs" }) => {
   return (
     <div>
